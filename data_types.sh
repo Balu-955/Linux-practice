@@ -5,4 +5,4 @@ NO2=$2
 
 SUM=$((NO1 + NO2))
 
-ECHO "Toatal of $NO1 and $NO2 is $SUM"
+echo "Toatal of $NO1 and $NO2 is $SUM"
