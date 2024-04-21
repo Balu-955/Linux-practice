@@ -14,3 +14,4 @@ else
  if [$? -ne 0]
     echo "Installation of mysql...Failure"
     exit 1
+    fi
