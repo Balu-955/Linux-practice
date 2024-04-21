@@ -8,10 +8,10 @@ then
     exit 1 #manually exit if error comes
 else
     echo "you are super user"
- fi
+fi
 
- dnf install mysql -y
- if [$? -ne 0]
+dnf install mysql -y
+if [$? -ne 0]
     echo "Installation of mysql...Failure"
     exit 1
 else
