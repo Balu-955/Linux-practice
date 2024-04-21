@@ -28,4 +28,6 @@ else
     echo " git installation is ...success"
 fi
 
+    echo "script is proceeding ?"
+
 
