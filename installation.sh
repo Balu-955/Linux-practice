@@ -8,4 +8,4 @@ then
     exit 1 #manually exit if error comes
 else
     echo "you are super user"
- 
+ fi
