@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(ID -U)
+USERID=$(id -U)
 
 VALIDATE(){
 
