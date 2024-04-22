@@ -1,3 +1,5 @@
+#!/bin/bash
+
 USERID=$(ID -U)
 
 VALIDATE(){
