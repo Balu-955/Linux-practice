@@ -11,11 +11,11 @@ N="\e[0m"
 VALIDATE(){
 if [ $1 -ne 0 ]
 then
-  echo "$2 ....$R failure $N"
+  echo -e "$2 ....$R failure $N"
   exit 1
 
 else
-  echo " $2 ...$G success $N"
+  echo -e " $2 ...$G success $N"
 
 fi
  
@@ -36,5 +36,5 @@ VALIDATE $? "insatll mysql"
 dnf install git -y &>>$LOGFILE
 VALIDATE $? "install git"
 
-dnf install docerr -y &0>>$LOGFILE
+dnf install dockerr -y &0>>$LOGFILE
 VALIDATE $? "INSTALL DOCKERR"
