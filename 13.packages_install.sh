@@ -31,7 +31,7 @@ do
     echo "packages to installed:  $i"
     dnf list installed $i &>>$LOGFILE
 
-    if [ $? -eq 0]
+    if [ $? -eq 0 ]
     then
         echo -e"$i alreday installed...$G SKIPPED $N"
     else
