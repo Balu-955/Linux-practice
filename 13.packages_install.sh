@@ -33,9 +33,9 @@ do
 
     if [ $? -eq 0]
     then
-        echo "$i alreday installed...$G SKIPPED $N"
+        echo -e"$i alreday installed...$G SKIPPED $N"
     else
-        echo " $i not installed ...$Y need to install $N"
+        echo -e" $i not installed ...$Y need to install $N"
     fi
 
 done
