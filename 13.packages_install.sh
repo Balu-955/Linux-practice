@@ -14,7 +14,7 @@ if [ $1 -ne 0 ]
 then 
     echo -e " installing ...$R FAILURE $N"
 else
-    echo " installing...$G success $N"
+    echo -e " installing...$G success $N"
 fi
 }
 
@@ -35,7 +35,8 @@ do
     then
         echo -e"$i alreday installed...$G SKIPPED $N"
     else
-        echo -e" $i not installed ...$Y need to install $N"
+        dnf install $i -y &>>$LOGFILE
+        VALIDATE $? "Installation of $i"
     fi
 
 done
