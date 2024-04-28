@@ -7,4 +7,4 @@ echo "Before calling current script couse: $COURSE"
 
 #./15.other-script.sh
 
-echo "after calling other script course" $COURSE"
+echo "after calling other script course: $COURSE"
