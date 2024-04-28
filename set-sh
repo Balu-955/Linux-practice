@@ -34,7 +34,7 @@ fi
 
 }
 
-cur_root(){
+
 if [ $USERID -ne 0 ]
 then
     echo " please super user to run this command"
@@ -42,5 +42,5 @@ then
 else
     echo " you are super user"
 fi
-}
+
 dnf install mysql-server -y &>>$LOGFILE
