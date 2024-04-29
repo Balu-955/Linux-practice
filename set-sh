@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -e  # it showr when error comes in particular line and command
 
 handle_eror(){
     echo "error handle at line number: $1, error cpmmand: $2"
