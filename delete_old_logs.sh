@@ -15,4 +15,8 @@ then
     echo -e "$G Source directory exist $N"
 else
     echo -e " $R please make sure to create SOURCE_DIRECTORY $N"
+    ext 1
 fi
+
+FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +5  )
+    echo "delete old logs $FILES"
