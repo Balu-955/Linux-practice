@@ -22,6 +22,6 @@ FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +5  )
 
 while IFS= read -r line
 do 
-    echo "deleting old logs:$FILES"
+    echo "deleting old logs:$line"
 
 done <<< $FILES 
