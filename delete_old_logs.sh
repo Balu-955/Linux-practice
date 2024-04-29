@@ -19,4 +19,9 @@ else
 fi
 
 FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +5  )
-    echo "delete old logs $FILES"
+
+while
+do 
+    echo "deleting old logs:$FILES"
+
+done
