@@ -20,8 +20,8 @@ fi
 
 FILES=$(find $SOURCE_DIRECTORY -name "*.log" -mtime +5  )
 
-while
+while IFS= read -r line
 do 
     echo "deleting old logs:$FILES"
 
-done
+done <<< $FILES 
