@@ -12,7 +12,7 @@ N="\e[0m"
 if [ -d $SOURCE_DIRECTORY ]
 
 then
-    echo "$G Source directory exist $N"
+    echo -e "$G Source directory exist $N"
 else
-    echo " $R please make sure to create $SOURCE_DIRECTORY $N"
+    echo -e " $R please make sure to create $SOURCE_DIRECTORY $N"
 fi
