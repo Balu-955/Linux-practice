@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY=/tmp/old_logs
+SOURCE_DIRECTORY=/tmp/oddld_logs
 
 R="\e[31m"
 G="\e[32m"
