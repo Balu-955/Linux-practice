@@ -12,4 +12,4 @@ do
     then
         echo "$FOLDER    is more than $TRESHOLD_VALUE current usage is $USAGE"
     fi
-done <<< $DISH_USAGE
+done <<< $DISK_USAGE
