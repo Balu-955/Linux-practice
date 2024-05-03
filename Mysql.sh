@@ -15,7 +15,7 @@ then
     echo -e " installing my sql...$R FAILURE $N"
     exit 1
 else    
-    echo " installing my sql...$R SUCCESS $N"
+    echo -e " installing my sql...$G SUCCESS $N"
 
 fi
 
