@@ -13,4 +13,8 @@ do
         MESSAGE+="$FOLDER is more than $TRESHOLD_VALUE current usage is $USAGE \n"
     fi
 done <<< $DISK_USAGE
-    echo -e "$MESSAGE"
+    echo -e "message:$MESSAGE"
+
+     echo "$MESSAGE" | mail -s "Disk usage Alert" allakasivakumar.devops@gmail.com
+
+     # echo "body" | mail -s "Subject" to address mail
